@@ -3,9 +3,9 @@ langchain-openai
 langchain-community
 python-dotenv
 ddgs
-mcp < 2.0.0
+mcp 
 langchain-mcp-adapters
-fastmcp < 1.0.0
+fastmcp 
 langgraph
 duckduckgo-search
 pypdf
