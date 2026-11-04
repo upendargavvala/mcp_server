@@ -1,0 +1,31 @@
+[project]
+name = "agents"
+version = "0.1.0"
+description = "Add your description here"
+readme = "README.md"
+authors = [
+    { name = "upendargavvala", email = "gavvalaupendar5@gmail.com" }
+]
+requires-python = ">=3.11"
+dependencies = [
+    "ddgs>=9.16.1",
+    "duckduckgo-search>=8.1.1",
+    "fastapi>=0.162.0",
+    "fastmcp>=4.1.6",
+    "langchain>=1.4.8",
+    "langchain-chroma>=1.1.0",
+    "langchain-community>=0.4.2",
+    "langchain-mcp-adapters>=0.3.1",
+    "langchain-openai>=1.7.3",
+    "langgraph>=1.2.19",
+    "mcp>=2.3.0",
+    "pypdf>=6.21.4",
+    "python-dotenv>=1.2.4",
+]
+
+[project.scripts]
+agents = "agents:main"
+
+[build-system]
+requires = ["uv_build>=0.13.7,<0.14.0"]
+build-backend = "uv_build"
